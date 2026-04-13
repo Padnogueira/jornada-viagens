@@ -48,12 +48,12 @@ section {
   margin: 0 auto 60px;
 }
 
-section.hero{
+section.hero {
   width: 100%;
   margin: 0;
 }
 
-.section-title{
+.section-title {
   width: 280px;
   margin: 0 auto 32px;
 }
@@ -112,5 +112,4 @@ section.hero{
   section {
     width: 1200px;
   }
-
 }

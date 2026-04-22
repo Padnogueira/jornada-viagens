@@ -18,15 +18,10 @@
   background: url(../img/osaka-mobile.jpg);
   background-size: cover;
 }
-.destination .item header h3 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
+.destination .item header h4 {
   margin: 24px 0;
 }
 .destinations .item p {
-  font-size: 20px;
-  font-weight: var(--text-weight);
-  line-height: 32px;
   margin-bottom: 24px;
   
 }

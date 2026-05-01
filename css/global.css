@@ -62,6 +62,7 @@ section.hero {
   font-weight: var(--title-weight);
   margin: 0;
   text-align: center;
+  margin-top: 88px;
 }
 
 .section-title hr {

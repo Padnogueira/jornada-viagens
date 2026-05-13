@@ -39,7 +39,7 @@
 }
 
 @media screen and (min-width: 1024px) {
- .hero .hero-img {
+  .hero .hero-img {
     background: url(../img/hero-desktop.jpg) no-repeat;
     background-size: cover;
   }
@@ -50,13 +50,11 @@
   }
   .hero h2 {
     padding: 88px 120px;
-    
   }
 }
 
 @media screen and (min-width: 1920px) {
   .hero h2 {
     padding: 88px 160px;
-    
   }
 }

@@ -1,9 +1,9 @@
-.hero-package img {
-    
+.hero-package .hero-img {
+    background: url(../img/hero-japao-mobile.png) no-repeat;
+    background-size: cover;
+    height: 400px;
     width: 100%;
-    display: block;
 }
-
 .payments-content {
     margin-bottom: 24px;
 }
@@ -40,7 +40,61 @@
     width: 100%;
 }
 
-section.bottom-hero-package {
+.payments-package h3.content-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-package .hero-img {
+        background: url(../img/hero-japao-tablet.png) no-repeat;
+        background-size: cover;
+        height: 620px;
+    }
+
+    .bottom-hero-package .hero-img {
+        background: url(../img/bg-bottom-hero-japan-tablet.png) no-repeat;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .image-gallery {
+        height: 600px;
+    }
+
+    .image-gallery .first {
+        background: url(../img/gallery-japao-1-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .image-gallery .second {
+        background: url(../img/gallery-japao-2-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .image-gallery .third {
+        background: url(../img/gallery-japao-3-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .destinations .button {
+        width: 280px;
+    }
+
+    section.bottom-hero-package {
+        width: 100%;
+        margin: 0;
+    }
+    section.hero-package {
     width: 100%;
     margin: 0;
+}
+.payments-package .button {
+    display: none;
+}
+.navigation-menu ul li a:hover {
+    text-decoration: underline;
+}
+
 }
